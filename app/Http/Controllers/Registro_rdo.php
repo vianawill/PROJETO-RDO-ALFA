@@ -14,7 +14,7 @@ class Registro_rdo extends Controller
      */
     public function index()
     {
-        return view ('layouts.gerarRDO');
+        return view ('gerarRDO');
     }
 
     /**
