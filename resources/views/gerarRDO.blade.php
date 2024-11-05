@@ -35,11 +35,11 @@
     <div class="form-row">
         <div class="form-group col md-6">
             <label for="inputnome1">Horário Planejado</label>
-            <input type="text" class="form-control" id="inputnome1" placeholder="Horario Planejado">
+            <input type="time" class="form-control" id="inputnome1" placeholder="Horario Planejado">
         </div>
         <div class="form-group col md-6">
             <label for="inputnome1">Horário Realizado</label>
-            <input type="text" class="form-control" id="inputnome1" placeholder="Horário Realizado">
+            <input type="time" class="form-control" id="inputnome1" placeholder="Horário Realizado">
         </div>
     </div>
 
@@ -110,7 +110,6 @@
             <label for="inputnome1" class="form-label">Limitador de Desempenho</label>
             <div class="input-group">
                 <input type="text" class="form-control" id="inputnome1" placeholder="Limitador de Desempenho">
-                <button class="btn btn-primary ms-2" type="button" style="margin-left: 10px;">Analisar</button>
             </div>
         </div>
     </div>
@@ -126,15 +125,15 @@
         </div>
         <div class="form-group col-2 md-6">
             <label for="inputnome1">Quantidade</label>
-            <input type="text" class="form-control" id="inputnome1" placeholder="Quantidade">
+            <input type="number" class="form-control" id="inputnome1" placeholder="Quantidade">
         </div>
         <div class="form-group col-2 md-6">
             <label for="inputnome1">Preço Unt.</label>
-            <input type="text" class="form-control" id="inputnome1" placeholder="Preço Unt.">
+            <input type="number" step="0,01" min="0" class="form-control" id="inputnome1" placeholder="R$ 0,00">
         </div>
         <div class="form-group col-2 md-6">
             <label for="inputnome1">Sub Total</label>
-            <input type="text" class="form-control" id="inputnome1" placeholder="Sub Total">
+            <input type="number" step="0,01" min="0" class="form-control" id="inputnome1" placeholder="R$ 0,00">
         </div>
     </div>
 </form>
@@ -150,15 +149,15 @@
         </div>
         <div class="form-group col-2 md-6">
             <label for="inputnome1">Quantidade</label>
-            <input type="text" class="form-control" id="inputnome1" placeholder="Quantidade">
+            <input type="number" class="form-control" id="inputnome1" placeholder="Quantidade">
         </div>
         <div class="form-group col-2 md-6">
             <label for="inputnome1">Preço Unt.</label>
-            <input type="text" class="form-control" id="inputnome1" placeholder="Preço Unt.">
+            <input type="number" step="0,01" min="0" class="form-control" id="inputnome1" placeholder="R$ 0,00">
         </div>
         <div class="form-group col-2 md-6">
             <label for="inputnome1">Sub Total</label>
-            <input type="text" class="form-control" id="inputnome1" placeholder="Sub Total">
+            <input type="number" step="0,01" min="0" class="form-control" id="inputnome1" placeholder="R$ 0,00">
         </div>
     </div>
 </form>
@@ -176,7 +175,6 @@
         <label for="inputnome1" class="form-label">Assinatura do Responsável</label>
         <div class="input-group">
             <input type="text" class="form-control" id="inputnome1">
-            <button class="btn btn-primary ms-2" type="button" style="margin-left: 10px;">Enviar</button> 
         </div>
     </div>
 </div>
