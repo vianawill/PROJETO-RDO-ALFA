@@ -23,5 +23,7 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::resource('/gerarRDO', App\Http\Controllers\Registro_rdo::class);
-
+Route::get('gerarRDO', [Registro_rdo::class, 'gerarRDO'])->name('gerarRDO');
+Route::get('/rdos', [Registro_rdo::class, 'index'])->name('rdos.index');
+Route::post('/rdo/store', [Registro_rdo::class, 'store'])->name('rdo.store');
+Route::delete('/rdos/{id}', [Registro_rdo::class, 'destroy'])->name('rdos.destroy');
