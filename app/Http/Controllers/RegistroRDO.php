@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\RDO;
 
-class Registro_rdo extends Controller
+class RegistroRDO extends Controller
 {
     public function gerarRDO()
     {
